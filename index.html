@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Si Boelang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                SI BOELANG (SMART EDUKASI BAYI POELANG)
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+            <div class="mb-3 mb-md-0 d-flex text-nowrap"><a class="btn btn-sm btn-bd-light rounded-2"
+                    href="https://github.com/twbs/bootstrap/blob/v5.3.1/site/content/docs/5.3/components/card.md"
+                    title="View and edit this file on GitHub" target="_blank" rel="noopener">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+        <div class="row m-3">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.rsubudirahayu.co.id/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-12-at-10.02.25-768x512.jpeg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Perawatan Tali Pusar</h5>
+                        <button type="button" class="btn btn-primary toggleModalButton"
+                            data-url="https://www.youtube.com/embed/FAZEuVoZTjA">
+                            Tonton Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://mc.tanahbumbukab.go.id/wp-content/uploads/2018/03/IMG-20180325-WA0001.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PMK</h5>
+                        <button type="button" class="btn btn-primary toggleModalButton"
+                            data-url="https://www.youtube.com/embed/XsED16RuQ-c">
+                            Tonton Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://my.clevelandclinic.org/-/scassets/images/org/health/articles/15274-benefits-breastfeeding"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Menyusui Yang Benar</h5>
+                        <button type="button" class="btn btn-primary toggleModalButton"
+                            data-url="https://www.youtube.com/embed/XsED16RuQ-c">
+                            Tonton Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-3">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.medela.com/.imaging/mte/medela-2018/content/dam/medela-com/breastfeeding-consumer/pictures/general/breastfeeding-journey/Articles/K1_Breast_milk_composition.jpg/jcr:content/K1_Breast_milk_composition.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cara Penyimpanan ASI</h5>
+                        <button type="button" class="btn btn-primary toggleModalButton" data-url="lol">
+                            Tonton Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://img.freepik.com/free-vector/warning-sign-gradient-shine_78370-1774.jpg?w=740&t=st=1693499665~exp=1693500265~hmac=5e6ef9fa383ef3d14116c0716d057625d3f02743007f66c4122ec9afb4ba7cd5"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tanda Kegawatan Bayi</h5>
+                        <button type="button" class="btn btn-primary toggleModalButton" data-url="lol">
+                            Tonton Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.mlchc.org/sites/default/files/styles/max_650x650/public/2022-03/nutrition_image2.jpg?itok=fUi0J40D"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pembarian Nutisi Melalui OGT</h5>
+                        <button type="button" class="btn btn-primary toggleModalButton" data-url="lol">
+                            Tonton Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog custom-modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe width="100%" height="800px" src="https://www.youtube.com/embed/t5kzdf8kUeM"
+                            id="embed">
+                        </iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+<style>
+    /* Custom CSS for the modal */
+    .custom-modal-lg {
+        max-width: 90%;
+        width: auto;
+    }
+
+    .custom-modal-lg .modal-content {
+        max-height: 190vh;
+        height: auto;
+        /* Adjust this value as needed */
+        margin: auto;
+    }
+</style>
+<script>
+    // Get a reference to the modal element
+    var modal = new bootstrap.Modal(document.getElementById('exampleModal'));
+
+    // Get a reference to the button that toggles the modal
+    var toggleModalButtons = document.querySelectorAll('.toggleModalButton');
+
+    toggleModalButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            let url = this.getAttribute('data-url');
+            let embedIframe = document.getElementById('embed');
+            embedIframe.src = url;
+            modal.toggle();
+        });
+    });
+</script>
+
+</html>
